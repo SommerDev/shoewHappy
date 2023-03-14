@@ -23,7 +23,7 @@ public class ClienteDAO {
 	// Nome de usuário 'root' para acesso ao banco de dados do SGBD MySQL
 	private String jdbcNomeUsuario = "root";
 	// Senha do usuário 'root' para acesso ao banco de dados do SGBD MySQL
-	private String jdbcSenha = "Rsb@1208";
+	private String jdbcSenha = "Xxx";
 
 	private static final String INSERIR_CLIENTE = "INSERT INTO cliente" + " (nome, endereco, modalidade) VALUES "
 			+ " (?, ?, ?);";
